@@ -1,7 +1,7 @@
-# Nerf Automatic Target Shooting with Arduino
+# Nerf Automatic Shooting Target with Arduino
 
 ## Overview
-This project implements an **Interactive Target Shooting Target** using **Arduino Board Mega 2560**, **Servo Motor**, **LCD Display**, **Bluetooth Module HC-05** and **Analog Sensors**. The game allows the player to set the timer, hit the moving target, and see the score displayed on the LCD screen.
+This project implements an **Interactive Shooting Target** using **Arduino Board Mega 2560**, **Servo Motor**, **LCD Display**, **Bluetooth Module HC-05** and **Analog Sensors**. The game allows the player to set the timer, hit the moving target, and see the score displayed on the LCD screen.
 
 ---
 
