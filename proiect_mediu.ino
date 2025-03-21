@@ -10,10 +10,10 @@ int stop = 0;
 volatile bool updateLCD = false;
 // Creăm un obiect Servo
 Servo myservo1;
-Servo myservo2;
+
 int score = 0;
 int lovita1 = 1;
-int lovita2 = 1;
+
 // Variabile globale
 String inputString = ""; 
 boolean stringComplete = false; 
@@ -41,7 +41,7 @@ void setup() {
   Timer1.initialize(1000000);
   Timer1.attachInterrupt(TimeTargetOne);
 
-  Timer3.initialize(1000000);          // Timer3: 500ms
+  Timer3.initialize(1000000);          
   Timer3.attachInterrupt(updateCountdown);
 
   // Rezervăm spațiu pentru sirul de preluare a datelor de intrare
